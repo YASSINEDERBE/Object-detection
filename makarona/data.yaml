@@ -1,0 +1,14 @@
+path: /content/drive/MyDrive/YOLOV8/makarona
+train: /content/drive/MyDrive/YOLOV8/makarona/train/images
+val: /content/drive/MyDrive/YOLOV8/makarona/valid/images
+test: /content/drive/MyDrive/YOLOV8/chariot/test/images
+
+nc: 11
+names: ['Cannelloni', 'Coude', 'Escargot', 'Farfalle', 'Fell', 'Papillon', 'Ressort', 'Spaghetti', 'Tagliatelle', 'lasagne', 'plume']
+
+roboflow:
+  workspace: rethinkai
+  project: vision-axm0g
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rethinkai/vision-axm0g/dataset/4
